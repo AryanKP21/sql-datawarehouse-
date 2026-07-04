@@ -21,7 +21,6 @@ CREATE DATABASE "DataWarehouse";
 
 -- Connect to the database
 -- (Run this only in psql)
-\c DataWarehouse
 
 -- Create Schemas
 CREATE SCHEMA IF NOT EXISTS bronze;
