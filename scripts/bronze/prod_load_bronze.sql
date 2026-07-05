@@ -13,6 +13,16 @@ Process:
 
 Usage:
     CALL bronze.load_bronze();
+
+Commands:
+BULK INSERT $\rightarrow$ COPY: PostgreSQL uses COPY for loading external files. 
+FIRSTROW = 2 is HEADER true in Postgres, which skips the first text line.
+PRINT $\rightarrow$ RAISE NOTICE
+Using EXTRACT(EPOCH FROM ...) calculates the runtime
+Substracting two TIMESTAMP values in PostgreSQL yields an INTERVAL.
+EXCEPTION WHEN OTHERS THEN handler.
+Adding RAISE; ensures your ETL pipelines fail correctly if a file is missing or corrupted.
+File Path Slashes: (\) changed to  (/) inside file paths,as PostgreSQL expects Unix-style paths or escaped strings.
 ===============================================================================
 */ 
 
