@@ -1,6 +1,6 @@
 /*
 ===============================================================================
-DDL Script: Create Bronze Tables
+DDL Script: Create Bronze Tables - Create column names 
 ===============================================================================
 Script Purpose:
     This script creates tables in the 'bronze' schema, dropping existing tables 
